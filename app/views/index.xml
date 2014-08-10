@@ -1,0 +1,8 @@
+<Alloy>
+	<Collection src="feed" />
+	<NavigationWindow id="navwin" module="xp.ui">
+		<Window id="win">
+	        <Require type="widget" src="com.prodz.tidynamicgrid" id="tdg"/>
+	    </Window>     
+	</NavigationWindow>
+</Alloy>

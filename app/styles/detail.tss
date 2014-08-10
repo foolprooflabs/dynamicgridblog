@@ -1,0 +1,23 @@
+
+".container" : {
+  layout: "vertical",
+  height: Ti.UI.SIZE,
+  top:0
+
+}
+"#img":{
+	width: Ti.UI.FILL,
+	height: Ti.UI.SIZE,
+	top:0
+}
+
+"#title":{
+	left: 5,
+	font:{fontSize:"16dp"},
+	color:"#000",
+	top:0,
+	height: Ti.UI.SIZE
+}
+"#content":{
+	left:5
+}

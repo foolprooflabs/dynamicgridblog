@@ -1,0 +1,12 @@
+".container": {
+	backgroundColor:"white"
+},
+"#win":{
+	navBarHidden:true
+}
+
+"#label": {
+	font: {
+		fontSize: 12
+	}
+}

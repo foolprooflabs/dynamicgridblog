@@ -1,4 +1,6 @@
-
+"#webview":{
+	willHandleTouches:false
+}
 ".container" : {
   
 }

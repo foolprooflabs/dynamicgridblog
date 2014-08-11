@@ -95,7 +95,7 @@ var addGridItem = function(item){
 		
 		var overlay = Ti.UI.createView({
 			width:Ti.UI.FILL,
-			height:Ti.UI.SIZE,
+			height:tmpView.size.height,
 			backgroundColor:'transparent',
 			zIndex:1,
 			data:item.data
@@ -110,11 +110,12 @@ var addGridItem = function(item){
 				 
 		frame.add(gridElement);
 		frame.add(overlay);
-		
+
 		$.tdgMain.remove(tmpView);
 		tmpView = null;
 		
 		$.tdgScrollView.children[currentCol].add(frame);
+		
 		currentCol++;
 		
 		if(currentCol == colViews.length){
